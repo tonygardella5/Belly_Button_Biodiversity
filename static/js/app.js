@@ -1,4 +1,4 @@
-d3.json("Belly_Button_Biodiversity/samples.json").then((data) => {
+d3.json("/Belly_Button_Biodiversity/samples.json").then((data) => {
   var metadata = data.metadata;
   var names = data.names;
   var otu_ids = metadata.otu_ids;
