@@ -1,4 +1,4 @@
-d3.json("../samples.json").then((data) => {
+d3.json("../../samples.json").then((data) => {
   var metadata = data.metadata;
   var names = data.names;
   var otu_ids = metadata.otu_ids;
@@ -12,7 +12,7 @@ d3.json("../samples.json").then((data) => {
             .append("option")
             .text(name)
             .property("value",name);
-        
+
       });
     
   }
